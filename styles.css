@@ -1,0 +1,93 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Question Container */
+.question-container {
+    margin-bottom: 20px;
+}
+
+/* Question Title */
+.question-title {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+/* Question Form */
+.question-form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Option Styles */
+.option {
+    margin-bottom: 10px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+/* Radio Button Styles */
+.option input[type='radio'] {
+    margin-right: 10px;
+    accent-color: #4CAF50; /* Green color for the radio button */
+}
+
+/* Submit Button Styles */
+.submit-button, .next-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 16px; /* Reduced padding for a smaller button */
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    display: inline-block; /* Ensures proper width */
+    width: auto; /* Allows button width to adjust based on padding */
+}
+
+.submit-button:hover, .next-button:hover {
+    background-color: #45a049;
+}
+
+/* Controls */
+.controls {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* No Questions Message */
+.no-questions {
+    text-align: center;
+    font-size: 18px;
+    color: #555;
+}
+
+/* Countdown Display */
+.countdown-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Countdown Timer */
+.countdown {
+    font-size: 20px;
+    font-weight: bold;
+    color: #e74c3c;
+}
