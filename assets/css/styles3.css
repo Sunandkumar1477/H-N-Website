@@ -251,7 +251,6 @@ img {
 
 .specs__img {
   width: 250px;
-  position: absolute;
   top: 2rem;
   right: -4rem;
 }
