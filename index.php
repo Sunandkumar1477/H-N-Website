@@ -336,7 +336,7 @@
                 margin-left: -200px;
             }
             .careers__btn{
-                margin-left: 100px;
+                margin-left: 300px;
             }
             .home__container {
         max-width: 90%;
@@ -834,6 +834,7 @@
                 }
             });
         });
+        
 </script>
     <!--=============== SCROLL REVEAL ===============-->
     <script src="https://unpkg.com/scrollreveal"></script>
