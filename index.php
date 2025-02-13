@@ -236,13 +236,7 @@
                 height: 30px;
                 margin-top: 5px;
             }
-            .home__description {
-        font-size: 14px; /* Adjust font size for readability */
-        margin-top: 30px;
-        margin-left: -90px;
-        width: 280%;
-    }
-
+  
     .home__description span u {
         font-size: 1.3rem;
     }
@@ -264,16 +258,24 @@
     }
     
     .home__description {
-        font-size: 0.9rem; /* Further adjust font size */
-        margin-top: 20px;
-        margin-left: -70px;
-        width: 370%;
-        margin-bottom: -20px;
+                 margin-top: 20px;
+                font-size: 14px; /* Adjusted for readability */
+                text-align: justify; /* Improve text alignment */
+                line-height: 1.6; /* Increase line spacing for readability */
+                padding: 0 15px; /* Add padding for better spacing */
     }
 
     .home__description span u {
         font-size: 1.2rem;
     }
+    .specs__containera {
+            margin-bottom: 70px;
+         
+        }
+    .footer__logo-container img{
+            height: 30px;
+            width: 70px;
+        }
         }
         @media (max-width: 480px) {
             .nav {
@@ -299,11 +301,11 @@
             }
             .home__description {
                 margin-top: 20px;
-                font-size: 14px; /* Adjust the font size for better readability */
-                margin-left: -70px;
-                background-color: rgba(255, 255, 255, 0.6); /* Ensure a semi-transparent background */
-                width: 370%;
-                margin-bottom: -20px;
+                font-size: 14px; /* Adjusted for readability */
+                width: 150%; /* Ensure it fits within the screen */
+                text-align: justify; /* Improve text alignment */
+                line-height: 1.6; /* Increase line spacing for readability */
+                padding: 0 15px; /* Add padding for better spacing */
             }
             .home__footer {
                 text-align: center; /* Center-align text for better appearance on small screens */
@@ -316,7 +318,7 @@
                 padding: 10px; /* Add padding for better spacing */
             }
             .specs__content.grid {
-                margin-left: -400px;
+                margin-left: -280px;
             }
             .specs__container.container.grid {
                 margin-left: 150px;
@@ -348,6 +350,14 @@
     .home__description span u {
         font-size: 1.2rem;
     }
+    .specs__containera {
+            margin-bottom: 70px;
+         
+        }
+        .footer__logo-container img{
+            height: 30px;
+            width: 70px;
+        }
         }
     </style>
 </head>
@@ -381,10 +391,10 @@
 </header>
     <main class="main">
     <div id="large-header" class="large-header">
-  <canvas id="demo-canvas"></canvas>
-  <h4 class="main-title" >"Where Accuracy Meets Innovation."
-    <span ></span></h4>
-</div>
+    <canvas id="demo-canvas"></canvas>
+    <h4 class="main-title" >"Where Accuracy Meets Innovation.!"
+        <span ></span></h4>
+    </div>
         <!--=============== HOME ===============-->
         <section class="" id="home">
             <div class="background-container">
@@ -435,12 +445,12 @@
 
                         <div class="specs__data" id="infographics">
                             <h1 style="font-family: Arial, sans-serif;">
-                                <span style="color: white; font-weight: bold;">Benefits of Partnering with Us</span><br>
+                                <span style="color: white; font-weight: bold;">Benefits of with Us</span><br>
                             </h1>
                         </div>
                         <div class="specs__data" id="Why">
                             <h1 style="font-family: Arial, sans-serif;">
-                                <span style="color: white; font-weight: bold;">Why Choose H&N Healthcare Services?</span><br>
+                                <span style="color: white; font-weight: bold;">Why Choose H&N Services?</span><br>
                             </h1>
                         </div>
                     </div>
@@ -468,7 +478,10 @@
                         <span style="color: #E6007E; font-weight: bold;">Careers</span><br>
                         Come, be a part of our H&N Tribe!
                     </h1>
-                   <!-- <a href="#" class="careers__btn">Join</a>--->      
+                    <a href="mailto:hr@hnhcservices.com?subject=Job%20Application&body=Dear%20HR,%0D%0A%0D%0AI%20am%20interested%20in%20joining%20your%20team.%20Please%20find%20my%20resume%20attached.%0D%0A%0D%0ARegards,%0D%0A[Your%20Name]" 
+                    class="careers__btn">
+                    Join
+                 </a>                   
                 </div>
             </div>
             </div>
@@ -486,7 +499,7 @@
                     Empowering professionals through high-quality medical coding training, 
                     fostering a positive work culture, and creating sustainable employment opportunities.
                     <br>
-                    H & N Health Care Private Limited was established with a vision to 
+                    H&N Health Care Private Limited was established with a vision to 
                     revolutionize the medical coding industry. Recognizing the industry's challenges, 
                     particularly the lack of quality training, we are committed to bridging this gap 
                     by offering top-tier training programs. Our company operates on a work-from-home model, 
@@ -502,7 +515,6 @@
                     <br>
                     H&N Healthcare Pvt Ltd stands for quality, opportunity, and innovation.
                      We are here to shape the future of medical coding with expertise and integrity.
-
                 </h1>
             </div>            
         </section>
@@ -525,6 +537,16 @@
                L.B Nagar,<br> Hyderabad-500070
             </div>
         </div>
+
+<div class="footer__content" style="color: white; padding-left: 20px;">
+    <h2>Contact Us:</h2>
+    <h3 class="footer__title">
+        <a href="mailto:hr@hnhcservices.com" style="color: white; text-decoration: none;">
+            hr@hnhcservices.com
+        </a>
+    </h3>
+</div>
+
 
         <!----<div class="footer__content" style="color: white; padding-left: 20px;">
             <h3 class="footer__title">Contact Us</h3>
@@ -823,5 +845,6 @@
 
     <!-- JavaScript for bubbles -->
    
+
 </body>
 </html>
