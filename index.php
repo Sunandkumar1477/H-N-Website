@@ -318,7 +318,7 @@
                 padding: 10px; /* Add padding for better spacing */
             }
             .specs__content.grid {
-                margin-left: -280px;
+                margin-left: -110px;
             }
             .specs__container.container.grid {
                 margin-left: 150px;
